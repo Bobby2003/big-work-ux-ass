@@ -51,9 +51,9 @@ public class NewBehaviourScript : MonoBehaviour
     {
         gameModel.transform.localScale = new Vector3(1f, 1f, 1f);
         gameModel.transform.rotation = Quaternion.Euler(90f, -90f, 0);
-        gameModel.transform.position = new Vector3(0, 1.01f, -2.35f);
+        gameModel.transform.position = new Vector3(0, 1.01f, -3.394f);
         x_value = 0;
-        y_value = 1.72f;
+        y_value = 1.01f;
     }
     void Start()
     {
